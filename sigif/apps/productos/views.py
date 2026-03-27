@@ -2,7 +2,7 @@ from .models import Producto
 from django.shortcuts import render, redirect, get_object_or_404
 from .form import ProductoForm
 
-
+# haidhasdhuyhasd
 def productos(request):
 
     return render(request, "productos/productos.html")
